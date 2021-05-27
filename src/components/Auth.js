@@ -11,7 +11,7 @@ const Auth = (props) => {
     <div className="auth">
       <Card>
         <p>لطفا برای ادامه وارد شوید.</p>
-        <button onClick={loginHandler}>ورورد</button>
+        <button onClick={loginHandler}>ورود</button>
       </Card>
     </div>
   )

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Card from "../UI/Card";
 import "./Search.css";
 
+
 const Search = React.memo((props) => {
   const { onLoadProducts } = props;
   const [searchItem, setSearchItem] = useState("");
